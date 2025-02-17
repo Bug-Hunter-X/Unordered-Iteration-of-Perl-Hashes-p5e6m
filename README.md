@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon issue in Perl related to the unordered iteration of hash keys.  The `keys` function does not guarantee any particular order, which can be problematic when order-sensitive operations are performed. The `bug.pl` file shows the issue, while `bugSolution.pl` offers a solution for maintaining order if needed.
